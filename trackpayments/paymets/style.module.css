@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    width: 70.625rem;
+    height: auto;
+    padding: 1.25rem 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+.mform{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img {
+    margin-top: -0.9rem;
+}
+
+.container select {
+    display: flex;
+    width: 290px;
+    height: 36px;
+    padding: 5px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 980px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+
+
+}
+
+.container input {
+    width: 290px;
+    height: 36px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 980px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        object-fit: contain;
+       display: block;
+       flex-wrap: wrap;
+       height: auto;
+       width:370px ;
+       
+    }
+    .container form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container input {
+        display: flex;
+        flex-wrap: wrap;
+        width: 290px;
+        height: 36px;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 980px;
+        border: 1px solid #E6E6E6;
+        background: #FFF;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+    .container label{
+       margin-top: 1rem;
+    }
+    .container .form-group{
+        margin: 0px;
+    }
+    .minput{
+        display: none;
+    }
+}

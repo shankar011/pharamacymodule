@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+.container {
+    width: 97%;
+    margin-left: 1%;
+    padding: 5%;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.add p {
+    margin-top: 5px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2B2F38;
+}
+.add button{
+    background: #DDDDDD;
+    color: #888888;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.storeinfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+.storeinfo p{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2B2F38;
+}
+.storeinfo input{
+    border:  1px solid #E6E6E6;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.address{
+    margin-top: 9px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .AddStore{
+        background:#f5f2f2;
+    }
+    
+    .address{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 5%;
+    }
+
+    
+    
+    
+  }
+  

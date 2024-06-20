@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+
+.container {
+    width: 70.625rem;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    border-radius: 0.7rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+.head {
+    background: #F0F1F3;
+    color: #667085;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.head p {
+    width: 50.764px;
+    height: 24.572px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+    margin-left: 1rem;
+    padding: 0.2rem;
+}
+
+
+.container form {
+    padding: 1.25rem 2.5rem;
+
+}
+
+.container img {
+    margin-top: -0.9rem;
+}
+
+.container label {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.container input {
+    display: flex;
+    width: 290px;
+    height: 36px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 980px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-right: 3rem;
+}
+
+.mpaymets {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        object-fit: contain;
+        width: 23rem;
+        margin-left: 0.7rem;
+        height: auto;
+    }
+
+    .mpaymets {
+        display: block;
+      
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .top {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .top p {
+        color: #2B2F38;
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 100% */
+    }
+
+    .top span {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 12px;
+        margin: 0.5rem 0rem 0rem 0.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 200% */
+    }
+
+    .top span img {
+        margin-left: 1rem;
+       
+    }
+
+    .container form {
+        display: none;
+
+    }
+
+    .head {
+        display: none;
+    }
+}

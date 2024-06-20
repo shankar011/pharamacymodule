@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.container {
+    width: 80rem;
+    height: auto;
+    padding-bottom: 2rem;
+    flex-shrink: 0;
+    border-radius: 1.625rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 3%;
+}
+
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.cart h4 {
+    display: flex;
+    width: 9.75306rem;
+    height: 1.59756rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 120% */
+}
+
+.cart p {
+    color: #7F82FF;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.container table {
+    width: 75rem;
+    margin-left: 3rem;
+}
+
+
+.container thead th {
+    color: #667085;
+    background: #F0F1F3;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.container tbody td {
+    color: #858D9D;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+
+}
+
+.container tbody td b {
+    color: #2B2F38;
+    text-align: right;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 125% */
+}
+
+.container tbody td input {
+    width: 3rem;
+    height: 1.61006rem;
+    border-radius: 0.5rem;
+    border: 0.5px solid #858D9D;
+    padding: 5px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 0.5px;
+    stroke: #858D9D;
+}
+
+.price {
+    color: #056e2d;
+    font-style: italic;
+    margin-left: 1%;
+}
+
+.percentage {
+    color: #056e2d;
+}
+.container button a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.container button {
+    margin-left: 65rem;
+    position: relative;
+    margin-top: 2rem;
+    border: none;
+    width: 5.6875rem;
+    padding: 0.5rem 4.8125rem 0.5rem 2.875rem;
+    border-radius: 61.25rem;
+    background: #7F9CFF;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.details {
+    display: none;
+}
+.mdetails{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .container table {
+        display: none;
+    }
+    .container button{
+        display: none;
+    }
+  
+    .container{
+        width: 360px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+     .cart h4 {
+        margin: 2rem 0rem 0.5rem 2rem;
+    }
+    .cart p{
+        display: none;
+    }
+
+    .details {
+        display: block;
+        margin-top: 2rem;
+        width: 360px;
+        height: auto;
+        flex-shrink: 0;
+    }
+    .details hr{
+        position: relative;
+    }
+
+    .name {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .name p {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+    }
+
+       .details ul{
+        list-style: none;
+       }
+    
+
+    .lists_1 ul  li{
+        list-style: none;
+        margin-top: 2%;
+    }
+
+    .list_1 li {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 3%;
+    }
+
+    .list_2 li {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 142.857% */
+        margin-bottom: 3%;
+    }
+
+    .list_2 li input {
+        width: 45.61px;
+        height: 21.53px;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+        border: 0.5px solid #858D9D;
+        padding: 5px;
+        flex-shrink: 0;
+        fill: #FFF;
+        stroke-width: 0.5px;
+        stroke: #858D9D;
+    }
+
+    .list_2 .price {
+        color: #056e2d;
+        font-style: italic;
+        margin-left: 1%;
+    }
+
+    .percentage {
+        color: #056e2d;
+    }
+
+    .mdetails{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}

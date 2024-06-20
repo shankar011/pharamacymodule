@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.container table {
+    height: auto;
+}
+
+.container table th {
+    background: #F0F1F3;
+    color: #667085;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 1rem;
+    /* 142.857% */
+}
+
+.container table td {
+    color: #858D9D;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 1rem;
+    /* 142.857% */
+}
+
+.container table td input {
+    width: 54.571px;
+    height: 25.761px;
+    border-radius: 6px;
+    border: 0.5px solid #858D9D;
+    background: #FFF;
+    color: #858D9D;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.container table b {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+}
+
+.container table td button {
+    border: none;
+    display: flex;
+    width: 91px;
+    padding: 8px 77px 8px 78px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #7F9CFF;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.mtable {
+    display: none;
+}
+
+.mbtable {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .container table {
+        display: none;
+    }
+
+    .mtable {
+        margin-top: 1rem;
+        display: block;
+        padding: 0.5rem;
+        width: 365.619px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 11px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .mbtable button {
+        border: none;
+        display: flex;
+        width: 45.5px;
+        padding: 4px 38.5px 4px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        border-radius: 490px;
+        background: #7F9CFF;
+        color: #FFF;
+        font-family: 'Raleway';
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px;
+        margin-left: 15rem;
+        
+        /* 142.857% */
+    }
+
+    .mbtable {
+        margin-top: 1rem;
+        display: block;
+        padding: 0.5rem;
+        width: 365px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 11px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .mtable .price {
+        margin-left: 1rem;
+        color: var(--Yellow, #F2C94C);
+        font-family: 'Raleway';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        /* 133.333% */
+    }
+
+    .mtable span {
+        margin-left: 1rem;
+    }
+
+    .lists {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .lists ul {
+        list-style: none;
+    }
+
+    .lists .left li {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+    }
+
+    .lists .right li {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+
+        /* 142.857% */
+    }
+
+    .edits {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .edits img {
+        margin-right: 1rem;
+    }
+
+    .mtable input {
+        width: 45.61px;
+        height: 21.53px;
+        flex-shrink: 0;
+        border-radius: 5.015px;
+        border: 0.418px solid #858D9D;
+        background: #FFF;
+    }
+
+    .mbtable input {
+        width: 45.61px;
+        height: 21.53px;
+        flex-shrink: 0;
+        border-radius: 5.015px;
+        border: 0.418px solid #858D9D;
+        background: #FFF;
+
+    }
+
+}

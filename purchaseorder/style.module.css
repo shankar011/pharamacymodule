@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.section {
+  background: #F5F4F7;
+  padding: 2%;
+  scroll-behavior: auto;
+}
+
+.return {
+  margin: 0px 10px 20px 0px;
+}
+
+.return a {
+  text-decoration: none;
+  color: #2B2F38;
+}
+
+.return span {
+  color: #2B2F38;
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  /* 100% */
+
+}
+
+.bottom {
+  height: 60px;
+  width: 100%;
+}
+
+.bottom button {
+  border: none;
+  margin-top: 1%;
+  margin-left: 80%;
+  display: flex;
+  width: 12.5rem;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  flex-shrink: 0;
+  border-radius: 61.25rem;
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  background: #7F82FF;
+}
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.modal_content {
+  border-radius: 0.75rem;
+  background: #FFF;
+  display: flex;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.conform {
+  color: var(--grey-grey-800, #383E49);
+  font-family: 'Raleway';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  /* 140% */
+}
+
+.modal_content img {
+  margin-left: 7rem;
+}
+
+.modal_content button {
+  border: none;
+}
+
+.modal_content .no {
+  display: flex;
+  width: 12.5rem;
+  padding: 0.5rem 4.8125rem 0.5rem 4.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 61.25rem;
+  border: 1.2px solid #7F82FF;
+  color: #7F82FF;
+  font-family: Raleway;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.modal_content .pdf {
+  display: flex;
+  width: 14.5rem;
+  padding: 0.5rem 2.8125rem 0.5rem 2.875rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 61.25rem;
+  border: 1.2px solid #7F82FF;
+  background: #7F82FF;
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width:768px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  .container .bottom {
+    width: 360px;
+  }
+
+  .bottom button {
+    margin-left: 13rem;
+    position: relative;
+    margin-top: 2rem;
+    width: 150px;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #7F82FF;
+    border: none;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+  }
+
+  .modal_content {
+    object-fit: contain;
+    border-radius: 0.75rem;
+    background: #FFF;
+    display: flex;
+    padding: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .conform {
+    color: var(--grey-grey-800, #383E49);
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    /* 140% */
+  }
+
+  .modal_content img {
+    margin-left: 2rem;
+  }
+
+  .modal_content button {
+    border: none;
+  }
+
+  .modal_content .no {
+    display: flex;
+    width: 7rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 61.25rem;
+    border: 1.2px solid #7F82FF;
+    color: #7F82FF;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+  }
+
+  .modal_content .pdf {
+    display: flex;
+    width: 7rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.175rem;
+    border-radius: 61.25rem;
+    border: 1.2px solid #7F82FF;
+    background: #7F82FF;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    margin-left: 1rem;
+  }
+
+}

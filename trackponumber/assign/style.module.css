@@ -1,0 +1,113 @@
+.container {
+    flex-wrap: wrap;
+    width: 80.625rem;
+    height: auto;
+    padding: 1.25rem 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-top: 5rem;
+}
+
+.container p {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 120% */
+}
+
+.container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container img {
+    margin-top: -0.9rem;
+}
+
+.container select {
+    display: flex;
+    width: 290px;
+    height: 36px;
+    padding: 5px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 980px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-top: 0.5rem;
+}
+
+.container input {
+    display: flex;
+    width: 290px;
+    height: 36px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 980px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.container button {
+    border: none;
+    display: flex;
+    width: 200px;
+    padding: 8px 77px 8px 78px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #7F9CFF;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 1.5rem;
+    /* 142.857% */
+}
+
+@media screen and (max-width:768px) {
+
+    .container {
+        width: 392px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid #E6E6E6;
+        background: #FFF;
+        margin-top: 5rem;
+    }
+   
+    .container input {
+        display: flex;
+        width: 290px;
+        height: 36px;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 980px;
+        border: 1px solid #E6E6E6;
+        background: #FFF;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+
+    .container button {
+        margin-left: 3rem;
+    }
+    /* .container form {
+        display: none;
+    } */
+}

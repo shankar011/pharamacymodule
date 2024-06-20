@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.container {
+    margin: 2rem;
+    scroll-behavior: auto;
+}
+
+.container p {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    /* 100% */
+}
+
+
+
+.search {
+    display: flex;
+    width: 14.5rem;
+    padding: 0rem 1rem;
+    align-items: center;
+    border-radius: 61.25rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-left: 1rem;
+}
+
+.search input {
+    border: none;
+    width: 11rem;
+
+}
+
+.search img {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.container button {
+    border: none;
+    display: flex;
+    width: 7rem;
+    /* padding: 0.5rem 1rem 0.5rem 1rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 61.25rem;
+    background: #7F82FF;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 27rem;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+}
+
+.modal_content {
+    width: Hug (757.62px);
+    height: Hug (468px);
+    padding: 10px;
+    border-radius: 12px;
+    gap: 20px;
+    background: white;
+}
+
+
+.paymet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paymet p {
+    color: var(--grey-grey-800, #383E49);
+    font-family: 'Raleway';
+    margin: 1rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    /* 140% */
+}
+
+.paymet img {
+    margin: 1rem;
+}
+
+
+
+
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forms label {
+    color: #2B2F38;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+    /* 133.333% */
+}
+
+.forms input {
+    display: flex;
+    width: 18.125rem;
+    height: 2.25rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 61.25rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-bottom: 5px;
+}
+
+.forms select {
+    display: flex;
+    width: 18.125rem;
+    height: 2.25rem;
+    padding: 0.1rem 1rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 61.25rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    margin-bottom: 5px;
+}
+
+.dview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mview {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    .container button {
+        display: block;
+        margin-left: 0rem;
+        padding: 0rem;
+    }
+
+    .container input {
+        margin-left: 0px;
+    }
+
+    .search{
+        display: none;
+    }
+
+   
+
+
+}

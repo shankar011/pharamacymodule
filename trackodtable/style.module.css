@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.main {
+    background: #F5F4F7;
+    padding: 2%;
+    height: 100vmax;
+    scroll-behavior: auto;
+}
+
+.return {
+    padding: 30px 10px;
+}
+
+.return .po {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 100% */
+
+}
+
+.status {
+    width: 117px;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #EEF7FF;
+    mix-blend-mode: multiply;
+    color: #176AB6;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.return button {
+    border: none;
+    width: 12rem;
+    padding: 8px 37px 8px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: -9px;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #7F82FF;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 2.5rem;
+    /* 142.857% */
+}
+
+.yourpo p {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    margin-top: 3rem;
+    /* 120% */
+}
+
+.bottom button {
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 67rem;
+    width: 200px;
+    padding: 8px 10px 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border-radius: 980px;
+    background: #7F9CFF;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+}
+.upload{
+    margin-left: 5rem;
+}
+
+@media screen and (max-width:768px) {
+    .main {
+        background: #F5F4F7;
+        padding: 1%;
+        height: auto;
+        scroll-behavior: auto;
+    }
+    .yourpo p{
+        margin-left: 1rem;
+    }
+    .return .po {
+        color: #2B2F38;
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+    
+    }
+   
+    .return button{
+        margin-top: 1rem;
+        margin-left: 7rem;
+    }
+    .upload{
+        display: none;
+    }
+    .bottom{
+        display: block;
+        background: #F5F4F7;
+        object-fit: contain;
+    }
+    .bottom button{
+        margin: 1rem;
+        margin-left: 7rem;
+
+    }
+    
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.container {
+    width: 255.432px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+    padding: 1rem;
+
+}
+
+.year select {
+    margin: 0rem 0rem 1rem 4rem;
+    width: 54.264px;
+    height: 22px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 0.5px solid #7F82FF;
+    background: #FFF;
+    color: #7F82FF;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 200% */
+}
+
+.revenue select {
+    margin: 1rem 0rem 1rem 7rem;
+    border: none;
+    width: 78.017px;
+    height: 20.543px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F0F0F0;
+    color: #667085;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 250% */
+}
+.numbers img{
+    margin: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.numbers span {
+    color: #858D9D;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 200% */
+}
+
+.numbers span p {
+    color: #858D9D;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 1.3rem;
+    /* 200% */
+}
+
+@media screen and(max-width:768px) {
+    .container{
+        display: block;
+     
+    }
+}

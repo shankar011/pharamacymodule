@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+
+.dashboard {
+    display: flex; 
+    height: auto;
+  }
+  .left{
+    width:17% ;
+  }
+
+  .content {
+    width: 83%;
+    scroll-behavior: auto;
+    position: relative;
+    border-left:1px solid #667085 ;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .left {
+      display: none;
+    }
+    .content{
+      width: 100%;
+    }
+  }
+  
+ 

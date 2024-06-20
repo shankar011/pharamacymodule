@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.container {
+    background: #F5F4F7;
+    height:auto;
+    padding: 20px 10px 3px 20px;
+    scroll-behavior: auto;
+}
+
+.return {
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.return h1 {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.return button {
+    border: none;
+    width: Hug (156px);
+    height: Hug (36px);
+    padding: 8px 20px 8px 20px;
+    border-radius: 980px;
+    gap: 6px;
+    background: #7F82FF;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.modal_content {
+  width: Hug (757.62px);
+  height: Hug (468px);
+  padding: 10px;
+  border-radius: 12px;
+  gap: 20px;
+  background: white;
+}
+
+.modal_content button {
+  border: none;
+  display: flex;
+  width: 7.5rem;
+  padding: 0.5rem 2.3125rem 0.5rem 2.375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 61.25rem;
+  background: #7F82FF;
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-left: 30rem;
+  margin-bottom: 1rem;
+  /* 142.857% */
+}
+
+
+.paymet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.paymet p {
+  color: var(--grey-grey-800, #383E49);
+  font-family: 'Raleway';
+  margin: 1rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  /* 140% */
+}
+
+.paymet img {
+  margin: 1rem;
+}
+
+
+
+
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.forms label {
+  color: #2B2F38;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  /* 133.333% */
+}
+
+.forms input {
+  display: flex;
+  width: 18.125rem;
+  height: 2.25rem;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 61.25rem;
+  border: 1px solid #E6E6E6;
+  background: #FFF;
+  margin-bottom: 5px;
+}
+
+.forms select {
+  display: flex;
+  width: 18.125rem;
+  height: 2.25rem;
+  padding: 0.1rem 1rem;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 61.25rem;
+  border: 1px solid #E6E6E6;
+  background: #FFF;
+  margin-bottom: 5px;
+}
+.mview {
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .dinput{
+    display: none;
+  }
+  .bottom {
+      display: none;
+  }
+
+  .return {
+      display: none;
+  }
+
+  .mview {
+      display: block;
+  }
+
+  .mreturn {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+  }
+
+  .mreturn span {
+      color: #2B2F38;
+      font-family: 'Raleway';
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      /* 120% */
+  }
+
+  .mreturn button {
+      border: none;
+      display: flex;
+      width: 107.611px;
+      border-radius: 707.778px;
+      background: #7F82FF;
+      justify-content: center;
+      align-items: center;
+      gap: 4.333px;
+      color: #FFF;
+      font-family: 'Raleway';
+      font-size: 8.667px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 14.444px;
+      /* 166.667% */
+  }
+
+
+
+  
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.modal_content {
+  width: Hug (757.62px);
+  height: Hug (468px);
+  padding: 10px;
+  border-radius: 12px;
+  gap: 20px;
+  background: white;
+  margin-top: 3rem;
+  object-fit: contain;
+}
+
+.modal_content button {
+  border: none;
+  display: flex;
+  width: 7.5rem;
+  padding: 0.5rem 2.3125rem 0.5rem 2.375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 61.25rem;
+  background: #7F82FF;
+  color: #FFF;
+  font-family: 'Raleway';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-left: 50%;
+  margin-bottom: 3rem;
+  /* 142.857% */
+}
+
+
+.paymet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.paymet p {
+  color: var(--grey-grey-800, #383E49);
+  font-family: 'Raleway';
+  margin: 1rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  /* 140% */
+}
+
+.paymet img {
+  margin: 1rem;
+}
+
+
+
+
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.forms label {
+  color: #2B2F38;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  /* 133.333% */
+}
+
+.forms input {
+  display: flex;
+  width: 18.125rem;
+  height: 2.25rem;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 61.25rem;
+  border: 1px solid #E6E6E6;
+  background: #FFF;
+  margin-bottom: 5px;
+}
+
+.forms select {
+  display: flex;
+  width: 18.125rem;
+  height: 2.25rem;
+  padding: 0.1rem 1rem;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 61.25rem;
+  border: 1px solid #E6E6E6;
+  background: #FFF;
+  margin-bottom: 5px;
+}
+
+}

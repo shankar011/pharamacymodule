@@ -1,0 +1,9 @@
+.container{
+    scroll-behavior: auto;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        scroll-behavior: auto;
+    }
+}

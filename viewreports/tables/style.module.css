@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500;600;700&display=swap');
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0.7rem 2rem 0.7rem;
+}
+
+.tables {
+    display: flex;
+    width: 33.375rem;
+    padding: 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+
+
+
+.tables h6 {
+    color: #2B2F38;
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 120% */
+}
+
+.tables p {
+    color: #7F82FF;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-left: 19rem;
+    /* 171.429% */
+}
+
+.tables th {
+    color: #B9BDC7;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 142.857% */
+}
+
+.tables td {
+    color: #858D9D;
+    font-family: 'Raleway';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        display: block;
+    }
+
+    .tables {
+
+        width: 440px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 26px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        /* padding-left: 0.5rem;
+        justify-content: space-evenly;
+        flex-shrink: 0;
+        border-radius: 26px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    }
+
+
+
+
+    .tables h6 {
+        color: #2B2F38;
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 125% */
+    }
+
+    .tables p {
+        margin-left: 13rem;
+        color: #7F82FF;
+        font-family: 'Raleway';
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 181.818% */
+    }
+
+
+    .tables th {
+        color: #B9BDC7;
+        font-family: 'Raleway';
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.25rem;
+        /* 142.857% */
+    }
+
+    .tables td {
+        margin: 0rem;
+        color: #B9BDC7;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 13px;
+        /* 108.333% */
+    }
+}

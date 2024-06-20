@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+.manage nav {
+  position: fixed;
+  width: 100%;
+  position: relative;
+  padding: 20px 40px 20px 40px;
+  border-bottom: 1px solid rgb(87, 86, 86);
+  /* background-color: #f5f2f2; */
+  background-color: #faf8f8;
+
+}
+
+/* .pharmabg{
+    background-color: "#f5f2f2";
+    width: 100dvh;
+  } */
+
+/* .pharmabg img{
+   background-image: url("../../../public/images/storebg.png");
+   width: 100%;
+   height: 100%;
+  } */
+
+.manage nav p {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #2B2F38;
+}
+
+.stores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f2f2;
+
+}
+
+.stores p{
+  color: #2B2F38;
+  font-family: 'Raleway';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 100% */
+}
+
+.stores button{
+  cursor: pointer;
+  border: none;
+  background: #7F82FF;
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  padding: 12px 30px 12px 30px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.skip {
+  background-color: white;
+  width: 100%;
+}
+
+.skip button {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  background: #DDDDDD;
+  color: rgb(87, 84, 84);
+  border: none;
+  margin: 10px;
+  margin-left: 85%;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.mobileview {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .manage {
+    height: auto;
+  }
+
+  .mobileview {
+    display: flex;
+    justify-content: space-between;
+    background: #f5f2f2;
+    padding: 10px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .manage nav {
+    background: #f5f2f2;
+
+  }
+
+  .pharmabg img {
+    width: 350px;
+    height: 60vh;
+  }
+
+  .skip button {
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background: #f5f2f2;
+    color: rgb(87, 84, 84);
+    border: none;
+    margin: 10px;
+    margin-left: 55%;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .stores {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stores p {
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2B2F38;
+  }
+
+  .stores button{
+    cursor: pointer;
+    border: none;
+    background: #7F82FF;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+
+  }
+
+
+}
